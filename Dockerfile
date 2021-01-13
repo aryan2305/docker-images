@@ -17,13 +17,13 @@ RUN pip3 --no-cache-dir install ipython pandas
 
 RUN pip3 --no-cache-dir install docopt joblib natsort scipy
 
-RUN pip3 --no-cache-dir install matplotlib librosa scikit-learn numpy torch==1.6.0+cu101
+# RUN pip3 --no-cache-dir install matplotlib librosa scikit-learn numpy torch==1.6.0+cu101
 
 RUN pip3 --no-cache-dir install dill bleach namedtupled
 
 RUN pip3 --no-cache-dir install PyEMD
 
-# RUN pip3 --no-cache-dir install pytorch-pretrained-bert==0.6.1 torch==1.0.1.post2 seqeval==0.0.5 nltk
+RUN pip3 --no-cache-dir install pytorch-pretrained-bert==0.6.1 torch==1.0.1.post2 seqeval==0.0.5 nltk
 
 RUN pip3 --no-cache-dir install networkx pathlib pygraphviz
 
